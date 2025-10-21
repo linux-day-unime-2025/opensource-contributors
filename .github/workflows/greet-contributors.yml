@@ -1,0 +1,22 @@
+name: Greet New Contributors
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: |
+            🎉 Benvenuto nel progetto!
+
+            Grazie per la tua prima Pull Request! 🚀
+
+            Un maintainer esaminerà le tue modifiche il prima possibile.
+            Nel frattempo, assicurati di aver letto le nostre [linee guida per contribuire](CONTRIBUTING.md).
+
+            Grazie per essere parte della community del Linux Day UniMe 2025! 💙
