@@ -11,7 +11,6 @@ Imparerai a:
 - 💾 Fare **commit** delle tue modifiche
 - 📤 Fare **push** su GitHub
 - 🔀 Aprire una **Pull Request**
-- 🐛 Usare le **GitHub Issues**
 
 ## 🚀 Come Contribuire
 
